@@ -1,0 +1,7 @@
+- name: Hello World Sample2
+  hosts: all
+  tasks:
+    - name: Hello Message 2nd
+      debug:
+        msg: "{{ dmesg }}  {{ dmesg2 }}"
+
